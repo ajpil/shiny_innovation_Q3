@@ -47,6 +47,8 @@ server <- function(input, output, session) {
     
     # Run the univariatestatistics function on the input table when user clicks GO!
     
+    # This is a new comment from Leith
+    
     query <- paste("SELECT * 
     FROM UnivariateStatistics (
     ON", input$ID1,"AS InputTable
